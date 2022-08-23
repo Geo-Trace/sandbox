@@ -1,0 +1,9 @@
+version: 2.1
+
+orbs:
+  commitlint: conventional-changelog/commitlint@1.0
+
+workflows:
+  my-workflow:
+    jobs:
+      - commitlint/lint
